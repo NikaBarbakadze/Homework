@@ -1,0 +1,148 @@
+.vertical-top{
+	vertical-align: top;
+}
+.inline-block{
+	display: inline-block;
+}
+
+.container{
+	display: block;
+	width: 1170px;
+	margin: 0 auto;
+}
+/* base calsses */
+.vertical-items{
+	display: inline-block;
+	vertical-align: middle;
+}
+.top-items{
+	display: inline-block;
+	vertical-align: top;
+}
+/* base calsses */
+/* ჰედეის დასაწყისი */
+.header-class{
+	padding: 30px;
+}
+.logo{
+	width: 100px;
+}
+.navigation-ul{
+    margin-left:30px;
+}
+
+.navigation-a{
+	display: block;
+	padding: 7.5px 15px;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: "nino_mtavruli_bold", sans-serif;
+	color: #3D58A6;
+	/*color: rgb(61,88,166);*/
+}
+.navigation-a:hover{
+	color: #EE4036;
+}
+.navigation-a.active{
+	color: #EE4036;
+}
+ /* ჰედეის დასსარული */
+.banner{
+	margin-top: 22.5px;
+}
+
+/* footer დასაწყისი */
+.footer{
+	margin-left: 30px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fb{
+	height: 30px;
+}
+.youtube{
+	height: 30px;
+}
+.social-list{
+	display: inline-block;
+	margin-right: 35px; 
+}
+.line{
+	width: 1px;
+	height: 30px;
+	background-color: #3D58A6;
+}
+/* footer დასსრული */
+/* კონტაქტის გვერდის დასაწყისი */
+.contact-section{
+	background-color: #E6E6E6;
+	padding: 30px 90px 30px 100px;
+}
+.contact-list{
+	text-align: left;
+}
+.heading{
+	text-align: left;
+	font-family: "nino_mtavruli_bold";
+	font-size: 20px;
+	color: #3D58A6;
+}
+.right-side iframe{
+	width: 770px;
+	height: 460px;
+}
+.left-side,
+.right-side{
+	font-family: "bpg_ingiri_arial";
+	font-size: 16px;
+}
+.left-side{
+	color: #808080;
+	width: calc(100% - 770px);
+}
+/* კონტაქტის გვერდი დასასრული */
+
+/* news section */
+.news-section{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.article{
+	font-family: "nino_mtavruli_bold";
+}
+
+.number{
+    background: #3D58A6;
+    display: inline-block;
+    font-size: 48px;
+    padding: 7px 7px 0px 7px;
+    color: white;
+}
+.date-block .text{
+	font-size: 22px;
+	color: #3D58A6;
+	margin-top: 10px;
+}
+.article-title{
+	font-size: 20px;
+	margin: 30px auto 20px auto;
+}
+.article-decription img{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+.article-decription .text{
+	/*display: inline-block;*/
+	/*width: calc(100% - 270px);*/
+	/*vertical-align: top;*/
+	/*padding-left: 40px;*/
+	padding-right: 10px;
+}
+.article-decription .text p{
+	font-size: 16px;
+	font-family: "bpg_ingiri_arial";
+	margin-bottom: 25px;
+}
+
+/* news section */
